@@ -12,8 +12,8 @@ int main ()
     std::cin >> time_arrival;
 
     int hours_in_path, minutes_in_path ;
-    int hours, minutes;
-    int a_hours, a_minutes;
+    int hours, minutes; // время отправления
+    int a_hours, a_minutes; // время прибытия
 
 
     if (time_departure.length() != 5 || time_departure[2] != ':' || time_departure[0] < '0'
